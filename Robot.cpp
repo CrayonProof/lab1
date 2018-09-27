@@ -30,8 +30,7 @@ int Robot::getDamage()
 	double doubStrength;
 	if (useAbility())
 	{
-		doubStrength = (double) strength + (double) strength * pow((double) energy/(double) max_energy, 4);
-		return (int) doubStrength;
+		doubStrength = (double) this->strength + (double) this->strength * pow((double) this->energy/(double) this->max_energy, 4);
 	}
 
 	return strength + (int) doubStrength;

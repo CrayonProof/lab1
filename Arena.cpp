@@ -77,6 +77,14 @@ infoVector.erase(infoVector.begin());
 
 	//cout << endl << "MAXHP MAXHP MAXHP" << max_hitpoints << endl;
 
+	for (int i = 0; i < fighters.size(); i++)
+	{
+		if ((*(fighters.at(i))).getName() == infoVector.at(0))
+		{
+			return false;
+		}
+	}
+
 	if (infoVector.size() == 6)
 	{
 		if (!vecContains(fighters, infoVector.at(0)))

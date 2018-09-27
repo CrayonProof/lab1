@@ -10,4 +10,3 @@ public:
 	int getDamage();
 	bool useAbility();
 };
-

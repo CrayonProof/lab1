@@ -36,17 +36,8 @@ battle Cow Sheep
   Cow 10 10 2 1 3
   Sheep 5 5 1 1 1
 
-  Cow 8 10 2 1 3
-  Sheep 4 5 1 2 1
-
-  Cow 5 10 2 1 3
-  Sheep 3 5 1 3 1
-
-  Cow 1 10 2 1 3
-  Sheep 2 5 1 4 1
-
-  Cow 1 10 2 1 3
-  Sheep -2147483645 5 1 4 1
+  Cow 10 10 2 1 3
+  Sheep -8191 5 1 1 1
 reset Cow Success
 reset Sheep Success
 battle Tinman Spacker
@@ -54,35 +45,8 @@ battle Tinman Spacker
   Tinman 100 100 5 1 7
   Spacker 50 50 1 1 1
 
-  Tinman 99 100 5 1 7
-  Spacker 45 50 1 1 1
-
-  Tinman 98 100 5 1 7
-  Spacker 40 50 1 1 1
-
-  Tinman 97 100 5 1 7
-  Spacker 35 50 1 1 1
-
-  Tinman 96 100 5 1 7
-  Spacker 30 50 1 1 1
-
-  Tinman 95 100 5 1 7
-  Spacker 25 50 1 1 1
-
-  Tinman 94 100 5 1 7
-  Spacker 20 50 1 1 1
-
-  Tinman 93 100 5 1 7
-  Spacker 15 50 1 1 1
-
-  Tinman 92 100 5 1 7
-  Spacker 10 50 1 1 1
-
-  Tinman 91 100 5 1 7
-  Spacker 5 50 1 1 1
-
-  Tinman 91 100 5 1 7
-  Spacker 0 50 1 1 1
+  Tinman 100 100 5 1 7
+  Spacker -12975 50 1 1 1
 reset Tinman Success
 reset Spacker Success
 battle Joshua NORAD
@@ -532,16 +496,13 @@ battle Honeydew Israphel
   Israphel 90 90 12 16 1
 
   Honeydew 135 150 14 8 11
-  Israphel 68 90 12 17 1
+  Israphel 54 90 12 17 1
 
   Honeydew 121 150 14 8 11
-  Israphel 46 90 12 18 1
+  Israphel 18 90 12 18 1
 
-  Honeydew 106 150 14 8 11
-  Israphel 24 90 12 19 1
-
-  Honeydew 108 150 14 8 11
-  Israphel 0 90 12 19 1
+  Honeydew 123 150 14 8 11
+  Israphel -20 90 12 18 1
 reset Honeydew Success
 reset Israphel Success
 battle Israphel Father_Braeburn
@@ -574,16 +535,13 @@ battle Honeydew Father_Braeburn
   Father_Braeburn 90 90 4 12 20
 
   Honeydew 132 150 14 8 11
-  Father_Braeburn 65 90 4 12 20
+  Father_Braeburn 51 90 4 12 20
 
   Honeydew 116 150 14 8 11
-  Father_Braeburn 40 90 4 12 20
+  Father_Braeburn 12 90 4 12 20
 
-  Honeydew 100 150 14 8 11
-  Father_Braeburn 15 90 4 12 20
-
-  Honeydew 102 150 14 8 11
-  Father_Braeburn -10 90 4 12 20
+  Honeydew 118 150 14 8 11
+  Father_Braeburn -27 90 4 12 20
 reset Honeydew Success
 reset Father_Braeburn Success
 removeFighter Fumblemore True
