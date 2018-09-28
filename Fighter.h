@@ -26,5 +26,6 @@ protected:
 	int hitPoints, strength, speed, max_speed, magic, max_hitPoints, max_energy, max_mana, mana, energy;
 	const int ROBOT_ABILITY_COST = 5;
 	const int CLERIC_ABILITY_COST = 25;
+	double doubStrength = 0.0;
 };
 

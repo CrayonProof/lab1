@@ -25,23 +25,23 @@ Cleric::~Cleric()
 
 int Cleric::getDamage()
 {
-	return magic;
+	return this->magic;
 }
 bool Cleric::useAbility()
 {
-	if (mana >= CLERIC_ABILITY_COST)
+	if (this->mana >= CLERIC_ABILITY_COST)
 	{
-		int hitPointsIncrease = magic / 3;
+		int hitPointsIncrease = this->magic / 3;
 
 		if (hitPointsIncrease < 1)
 			hitPointsIncrease = 1;
 
-		hitPoints += hitPointsIncrease;
+		this->hitPoints += hitPointsIncrease;
 
-		if (hitPoints > max_hitPoints)
-			hitPoints = max_hitPoints;
+		if (this->hitPoints > this->max_hitPoints)
+			this->hitPoints = this->max_hitPoints;
 
-		mana -= CLERIC_ABILITY_COST;
+		this->mana -= CLERIC_ABILITY_COST;
 
 		return true;
 	}

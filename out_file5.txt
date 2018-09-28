@@ -37,7 +37,7 @@ battle Cow Sheep
   Sheep 5 5 1 1 1
 
   Cow 10 10 2 1 3
-  Sheep -8191 5 1 1 1
+  Sheep -8189 5 1 1 1
 reset Cow Success
 reset Sheep Success
 battle Tinman Spacker
@@ -46,7 +46,7 @@ battle Tinman Spacker
   Spacker 50 50 1 1 1
 
   Tinman 100 100 5 1 7
-  Spacker -12975 50 1 1 1
+  Spacker -12970 50 1 1 1
 reset Tinman Success
 reset Spacker Success
 battle Joshua NORAD
@@ -496,13 +496,31 @@ battle Honeydew Israphel
   Israphel 90 90 12 16 1
 
   Honeydew 135 150 14 8 11
-  Israphel 54 90 12 17 1
+  Israphel 68 90 12 17 1
 
   Honeydew 121 150 14 8 11
-  Israphel 18 90 12 18 1
+  Israphel 56 90 12 18 1
 
-  Honeydew 123 150 14 8 11
-  Israphel -20 90 12 18 1
+  Honeydew 106 150 14 8 11
+  Israphel 47 90 12 19 1
+
+  Honeydew 90 150 14 8 11
+  Israphel 39 90 12 20 1
+
+  Honeydew 73 150 14 8 11
+  Israphel 32 90 12 21 1
+
+  Honeydew 55 150 14 8 11
+  Israphel 25 90 12 22 1
+
+  Honeydew 36 150 14 8 11
+  Israphel 18 90 12 23 1
+
+  Honeydew 16 150 14 8 11
+  Israphel 11 90 12 24 1
+
+  Honeydew -5 150 14 8 11
+  Israphel 5 90 12 25 1
 reset Honeydew Success
 reset Israphel Success
 battle Israphel Father_Braeburn
@@ -535,13 +553,25 @@ battle Honeydew Father_Braeburn
   Father_Braeburn 90 90 4 12 20
 
   Honeydew 132 150 14 8 11
-  Father_Braeburn 51 90 4 12 20
+  Father_Braeburn 65 90 4 12 20
 
   Honeydew 116 150 14 8 11
-  Father_Braeburn 12 90 4 12 20
+  Father_Braeburn 50 90 4 12 20
 
-  Honeydew 118 150 14 8 11
-  Father_Braeburn -27 90 4 12 20
+  Honeydew 100 150 14 8 11
+  Father_Braeburn 38 90 4 12 20
+
+  Honeydew 84 150 14 8 11
+  Father_Braeburn 27 90 4 12 20
+
+  Honeydew 68 150 14 8 11
+  Father_Braeburn 16 90 4 12 20
+
+  Honeydew 52 150 14 8 11
+  Father_Braeburn 5 90 4 12 20
+
+  Honeydew 54 150 14 8 11
+  Father_Braeburn -6 90 4 12 20
 reset Honeydew Success
 reset Father_Braeburn Success
 removeFighter Fumblemore True

@@ -25,10 +25,10 @@ Archer::~Archer()
 
 int Archer::getDamage()
 {
-	return speed;
+	return this->speed;
 }
 bool Archer::useAbility()
 {
-	speed += 1;
+	this->speed += 1;
 	return true;
 }

@@ -62,10 +62,10 @@ void Fighter::takeDamage(int damage)
 }
 void Fighter::reset()
 {
-	hitPoints = max_hitPoints;
-	energy = max_energy;
-	speed = max_speed;
-	mana = max_mana;
+	this->hitPoints = this->max_hitPoints;
+	this->energy = this->max_energy;
+	this->speed = this->max_speed;
+	this->mana = this->max_mana;
 }
 void Fighter::regenerate()
 {
