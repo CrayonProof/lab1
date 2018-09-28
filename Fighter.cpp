@@ -69,56 +69,24 @@ void Fighter::reset()
 }
 void Fighter::regenerate()
 {
-	hitPoints += strength / 6;
+	int hitPointsIncrease = (this->strength / 6);
+	
+	if (hitPointsIncrease < 1)
+		hitPointsIncrease = 1;
+		
+		hitPoints += hitPointsIncrease;
 
-	if (hitPoints > max_hitPoints)
-		hitPoints = max_hitPoints;
+	if (this->hitPoints > this->max_hitPoints)
+		this->hitPoints = this->max_hitPoints;
 
-	int manaIncrease = magic / 5;
+	int manaIncrease = this->magic / 5;
 
 	if (manaIncrease < 1)
 		manaIncrease = 1;
 
-	mana += manaIncrease;
+	this->mana += manaIncrease;
 	
-	if (mana > max_mana)
-		mana = max_mana;
+	if (this->mana > this->max_mana)
+		this->mana = this->max_mana;
 }
 
-/*
-bool Fighter::useAbility()
-{
-	if (type = 1)
-	{
-		if (energy >= ROBOT_ABILITY_COST)
-		{
-			return true;
-		}
-	}
-	else if (int Type = 2)
-	{
-		speed += 1;
-		return true;
-	}
-	else if (type = 3)
-	{
-		if (mana >= CLERIC_ABILITY_COST)
-		{
-			int hitPointsIncrease = magic / 3;
-
-			if (hitPointsIncrease < 1)
-				hitPointsIncrease = 1;
-
-			hitPoints += hitPointsIncrease;
-
-			if (hitPoints > max_hitPoints)
-				hitPoints = max_hitPoints;
-
-			mana -= CLERIC_ABILITY_COST;
-
-			return true;
-		}
-	}
-	return false;
-}
-*/

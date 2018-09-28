@@ -16,6 +16,8 @@ Cleric::Cleric(std::string name, std::string type, int max_hitPoints, int streng
 	this->max_speed = speed;
 	this->speed = speed;
 	this->magic = magic;
+	this->max_mana = 5*magic;
+	this->mana = max_mana;
 }
 
 Cleric::~Cleric()
@@ -27,6 +29,7 @@ int Cleric::getDamage()
 {
 	return this->magic;
 }
+
 bool Cleric::useAbility()
 {
 	if (this->mana >= CLERIC_ABILITY_COST)

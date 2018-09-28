@@ -36,8 +36,11 @@ battle Cow Sheep
   Cow 10 10 2 1 3
   Sheep 5 5 1 1 1
 
-  Cow 10 10 2 1 3
-  Sheep -8189 5 1 1 1
+  Cow 8 10 2 1 3
+  Sheep 2 5 1 2 1
+
+  Cow 9 10 2 1 3
+  Sheep 0 5 1 2 1
 reset Cow Success
 reset Sheep Success
 battle Tinman Spacker
@@ -45,8 +48,38 @@ battle Tinman Spacker
   Tinman 100 100 5 1 7
   Spacker 50 50 1 1 1
 
+  Tinman 99 100 5 1 7
+  Spacker 41 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 37 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 33 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 29 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 25 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 21 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 17 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 13 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 9 50 1 1 1
+
+  Tinman 99 100 5 1 7
+  Spacker 5 50 1 1 1
+
   Tinman 100 100 5 1 7
-  Spacker -12970 50 1 1 1
+  Spacker 0 50 1 1 1
 reset Tinman Success
 reset Spacker Success
 battle Joshua NORAD
@@ -55,10 +88,10 @@ battle Joshua NORAD
   NORAD 750 750 30 40 1
 
   Joshua 990 1000 10 80 10
-  NORAD 750 750 30 40 1
+  NORAD 745 750 30 40 1
 
   Joshua 981 1000 10 80 10
-  NORAD 750 750 30 40 1
+  NORAD 747 750 30 40 1
 
   Joshua 972 1000 10 80 10
   NORAD 750 750 30 40 1
@@ -393,50 +426,44 @@ battle Honeydew HoneydewClone
   Honeydew 150 150 14 8 11
   HoneydewClone 150 150 14 8 11
 
-  Honeydew 138 150 14 8 11
-  HoneydewClone 140 150 14 8 11
+  Honeydew 124 150 14 8 11
+  HoneydewClone 126 150 14 8 11
 
-  Honeydew 128 150 14 8 11
-  HoneydewClone 130 150 14 8 11
+  Honeydew 110 150 14 8 11
+  HoneydewClone 112 150 14 8 11
 
-  Honeydew 118 150 14 8 11
-  HoneydewClone 120 150 14 8 11
+  Honeydew 99 150 14 8 11
+  HoneydewClone 101 150 14 8 11
 
-  Honeydew 108 150 14 8 11
-  HoneydewClone 110 150 14 8 11
+  Honeydew 89 150 14 8 11
+  HoneydewClone 91 150 14 8 11
 
-  Honeydew 98 150 14 8 11
-  HoneydewClone 100 150 14 8 11
+  Honeydew 79 150 14 8 11
+  HoneydewClone 81 150 14 8 11
 
-  Honeydew 88 150 14 8 11
-  HoneydewClone 90 150 14 8 11
+  Honeydew 69 150 14 8 11
+  HoneydewClone 71 150 14 8 11
 
-  Honeydew 78 150 14 8 11
-  HoneydewClone 80 150 14 8 11
+  Honeydew 59 150 14 8 11
+  HoneydewClone 61 150 14 8 11
 
-  Honeydew 68 150 14 8 11
-  HoneydewClone 70 150 14 8 11
+  Honeydew 49 150 14 8 11
+  HoneydewClone 51 150 14 8 11
 
-  Honeydew 58 150 14 8 11
-  HoneydewClone 60 150 14 8 11
+  Honeydew 39 150 14 8 11
+  HoneydewClone 41 150 14 8 11
 
-  Honeydew 48 150 14 8 11
-  HoneydewClone 50 150 14 8 11
+  Honeydew 29 150 14 8 11
+  HoneydewClone 31 150 14 8 11
 
-  Honeydew 38 150 14 8 11
-  HoneydewClone 40 150 14 8 11
+  Honeydew 19 150 14 8 11
+  HoneydewClone 21 150 14 8 11
 
-  Honeydew 28 150 14 8 11
-  HoneydewClone 30 150 14 8 11
+  Honeydew 9 150 14 8 11
+  HoneydewClone 11 150 14 8 11
 
-  Honeydew 18 150 14 8 11
-  HoneydewClone 20 150 14 8 11
-
-  Honeydew 8 150 14 8 11
-  HoneydewClone 10 150 14 8 11
-
-  Honeydew 10 150 14 8 11
-  HoneydewClone -2 150 14 8 11
+  Honeydew 11 150 14 8 11
+  HoneydewClone -1 150 14 8 11
 reset Honeydew Success
 reset HoneydewClone Success
 battle Israphel IsraphelClone
@@ -472,22 +499,25 @@ battle Father_Braeburn Father_BraeburnClone
   Father_BraeburnClone 90 90 4 12 20
 
   Father_Braeburn 73 90 4 12 20
-  Father_BraeburnClone 73 90 4 12 20
+  Father_BraeburnClone 80 90 4 12 20
 
-  Father_Braeburn 56 90 4 12 20
-  Father_BraeburnClone 56 90 4 12 20
+  Father_Braeburn 63 90 4 12 20
+  Father_BraeburnClone 70 90 4 12 20
 
-  Father_Braeburn 39 90 4 12 20
-  Father_BraeburnClone 39 90 4 12 20
+  Father_Braeburn 53 90 4 12 20
+  Father_BraeburnClone 60 90 4 12 20
 
-  Father_Braeburn 22 90 4 12 20
-  Father_BraeburnClone 22 90 4 12 20
+  Father_Braeburn 43 90 4 12 20
+  Father_BraeburnClone 50 90 4 12 20
 
-  Father_Braeburn 5 90 4 12 20
-  Father_BraeburnClone 5 90 4 12 20
+  Father_Braeburn 27 90 4 12 20
+  Father_BraeburnClone 34 90 4 12 20
 
-  Father_Braeburn 5 90 4 12 20
-  Father_BraeburnClone -12 90 4 12 20
+  Father_Braeburn 11 90 4 12 20
+  Father_BraeburnClone 18 90 4 12 20
+
+  Father_Braeburn -5 90 4 12 20
+  Father_BraeburnClone 2 90 4 12 20
 reset Father_Braeburn Success
 reset Father_BraeburnClone Success
 battle Honeydew Israphel
@@ -529,22 +559,25 @@ battle Israphel Father_Braeburn
   Father_Braeburn 90 90 4 12 20
 
   Israphel 74 90 12 17 1
-  Father_Braeburn 76 90 4 12 20
+  Father_Braeburn 83 90 4 12 20
 
   Israphel 60 90 12 18 1
-  Father_Braeburn 61 90 4 12 20
+  Father_Braeburn 75 90 4 12 20
 
   Israphel 46 90 12 19 1
-  Father_Braeburn 45 90 4 12 20
+  Father_Braeburn 66 90 4 12 20
 
   Israphel 33 90 12 20 1
-  Father_Braeburn 28 90 4 12 20
+  Father_Braeburn 56 90 4 12 20
 
   Israphel 20 90 12 21 1
-  Father_Braeburn 10 90 4 12 20
+  Father_Braeburn 39 90 4 12 20
 
-  Israphel 22 90 12 22 1
-  Father_Braeburn -9 90 4 12 20
+  Israphel 7 90 12 22 1
+  Father_Braeburn 21 90 4 12 20
+
+  Israphel -6 90 12 23 1
+  Father_Braeburn 2 90 4 12 20
 reset Israphel Success
 reset Father_Braeburn Success
 battle Honeydew Father_Braeburn
@@ -553,25 +586,34 @@ battle Honeydew Father_Braeburn
   Father_Braeburn 90 90 4 12 20
 
   Honeydew 132 150 14 8 11
-  Father_Braeburn 65 90 4 12 20
+  Father_Braeburn 72 90 4 12 20
 
   Honeydew 116 150 14 8 11
-  Father_Braeburn 50 90 4 12 20
+  Father_Braeburn 64 90 4 12 20
 
   Honeydew 100 150 14 8 11
-  Father_Braeburn 38 90 4 12 20
+  Father_Braeburn 59 90 4 12 20
 
   Honeydew 84 150 14 8 11
-  Father_Braeburn 27 90 4 12 20
+  Father_Braeburn 55 90 4 12 20
 
   Honeydew 68 150 14 8 11
-  Father_Braeburn 16 90 4 12 20
+  Father_Braeburn 45 90 4 12 20
 
   Honeydew 52 150 14 8 11
-  Father_Braeburn 5 90 4 12 20
+  Father_Braeburn 35 90 4 12 20
 
-  Honeydew 54 150 14 8 11
-  Father_Braeburn -6 90 4 12 20
+  Honeydew 36 150 14 8 11
+  Father_Braeburn 25 90 4 12 20
+
+  Honeydew 20 150 14 8 11
+  Father_Braeburn 21 90 4 12 20
+
+  Honeydew 4 150 14 8 11
+  Father_Braeburn 11 90 4 12 20
+
+  Honeydew 6 150 14 8 11
+  Father_Braeburn 0 90 4 12 20
 reset Honeydew Success
 reset Father_Braeburn Success
 removeFighter Fumblemore True
